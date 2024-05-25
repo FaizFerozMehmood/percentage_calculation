@@ -1,19 +1,43 @@
-body {
+
+
+
+
+
+
+
+ body {
     font-family: Arial, sans-serif;
     background:rgb(228, 218, 218);
     display: flex;
     flex-direction: column;
     
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0;
 }
 
 .container {
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    /* width: 100px; */
+} 
+
+body{
+    /* height: 100vh; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* margin-top: 30px; */
+}
+.container{
+    /* height: 100px; */
+    /* width: 180px; */
+    /* padding: 10px; */
+    /* row-gap: 10px; */
+align-items: center;
+
+    
+
 }
 
 input{
@@ -29,11 +53,18 @@ table, th, td {
    display: none;
 }
 
-#Add{
+button{
     background-color: green;
     color: white;
     margin-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
     border-radius: 9px;
+    height: 30px;
+}
+.Fail{
+    color: red;
+}
+.pass{
+    color:green;
 }
