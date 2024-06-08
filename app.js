@@ -24,6 +24,7 @@ addBtn.addEventListener("click", function () {
      <td>${input_for_chemistry.value}</td>  
      <td>${input_for_bio.value}</td>
      </tr>`
+    
 
   var total = Number(input_for_eng.value) + Number(input_for_math.value) + Number(input_for_science.value) + Number(input_for_chemistry.value) + Number(input_for_bio.value)
   console.log("total", total);
